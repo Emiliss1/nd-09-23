@@ -1,0 +1,71 @@
+body {
+  background-color: aliceblue;
+}
+.App {
+  text-align: center;
+}
+
+.input {
+  width: 400px;
+  height: 30px;
+  border: 2px solid black;
+  font-size: 18px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.btn {
+  height: 35px;
+  width: 80px;
+  border: 2px solid black;
+  cursor: pointer;
+  font-weight: bolder;
+  background-color: royalblue;
+  color: aliceblue;
+  border-radius: 5px;
+}
+
+.item {
+  width: 450px;
+  height: 50px;
+  margin: auto;
+  font-size: 18px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  border: 1px solid black;
+}
+
+
+.item p {
+  margin-left: 10px;
+}
+
+.checkbtn {
+  height: 50px;
+  border: none;
+  /*background-color: rgb(118, 140, 206);*/
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.checkedbtn {
+  height: 50px;
+  border: none;
+  /*background-color: royalblue;*/
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.removebtn {
+  margin-left: auto;
+  height: 50px;
+  border: none;
+  background-color: rgba(255, 0, 0, 0.705);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
